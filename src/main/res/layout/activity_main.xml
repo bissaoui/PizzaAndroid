@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagePi"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Pizza moati"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_light"
+        android:id="@+id/txtPizza"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:isScrollContainer="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPizza">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/italianno_regular"
+                android:text="Description : "
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/brygada1918_medium"
+                android:text="H azodijoefidhaazeopfh ndao^ziduazôiduaz oizadapzodazoidjaz azoiduazoiduazoidu azdiazdoidzuoidazupouadz upaiozdhdhazpuiodhpaziuduhpaziudh azdipuazhduazd"
+                android:textColor="#999"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/italianno_regular"
+                android:text="Ingridients : "
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/txtIngridients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/brygada1918_medium"
+                android:text="H azodijoefidhaazeopfh ndao^ziduazôiduaz oizadapzodazoidjaz azoiduazoiduazoidu azdiazdoidzuoidazupouadz upaiozdhdhazpuiodhpaziuduhpaziudh azdipuazhduazd"
+                android:textColor="#999"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/italianno_regular"
+                android:text="Preparation : "
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/txtPreparation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/brygada1918_medium"
+                android:text="H azodijoefidhaazeopfh ndao^ziduazôiduaz oizadapzodazoidjaz azoiduazoiduazoidu azdiazdoidzuoidazupouadz upaiozdhdhazpuiodhpaziuduhpaziudh azdipuazhduazd"
+                android:textColor="#999"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

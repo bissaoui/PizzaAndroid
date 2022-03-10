@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Pizza</string>
+
+    <string name="textSplash1">Pizza Recipes</string>
+    <string name="textSplash2">Make Your Pizza</string>
+
+</resources>
